@@ -1,8 +1,5 @@
-Write-Host -ForegroundColor Green "Starting OSDCloud ZTI ..."
+Write-Host -ForegroundColor Green "Starting OSDCloud ..."
 start-sleep -Seconds 3
-
-Write-Host -ForegroundColor Green "Updating OSD Powershell Module"
-Install-Module OSD -Force
 
 Write-Host -ForegroundColor Green "Importing OSD Powershell Module"
 Import-Module OSD -Force
