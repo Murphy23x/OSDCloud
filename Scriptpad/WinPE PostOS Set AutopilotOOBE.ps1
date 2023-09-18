@@ -6,10 +6,8 @@ Install-Module AutopilotOOBE -Force
 Import-Module AutopilotOOBE -Force
 
 $Params = @{
-    Title = 'OSDeploy Autopilot Registration'
-    GroupTag = 'Enterprise'
-    GroupTagOptions = 'Development','Enterprise'
-    Hidden = 'AddToGroup','AssignedComputerName','AssignedUser','PostAction'
+    Title = 'Technica ICT - Customer Autopilot Registration'
+    Hidden = 'GroupTag','GroupTagOptions','AddToGroup','AssignedComputerName','AssignedUser','PostAction'
     Assign = $true
     Run = 'NetworkingWireless'
 }
