@@ -1,4 +1,4 @@
-Write-Host -ForegroundColor Green "Starting OSDCloud ..."
+Write-Host -ForegroundColor Green "Starting OSDCloud..."
 start-sleep -Seconds 3
 
 Write-Host -ForegroundColor Green "Updating OSD Powershell Module"
