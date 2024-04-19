@@ -5,7 +5,7 @@ Write-Host -ForegroundColor Green "Importing OSD Powershell Module"
 Import-Module OSD -Force
 
 Write-Host -ForegroundColor Green "Start OSD Cloud"
-Start-OSDCloud -OSLanguage en-us -OSName 'Windows 11 23H2 x64' -OSLicense Retail -OSEdition Pro
+Start-OSDCloud -OSLanguage en-us -OSName 'Windows 11 22H2 x64' -OSLicense Retail -OSEdition Pro
 
 Write-Host -ForegroundColor Green "Restarting ..."
 start-sleep -Seconds 5
